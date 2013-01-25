@@ -19,7 +19,7 @@ All tests were run ising OpenJDK 7
     OpenJDK 64-Bit Server VM (build 23.2-b09, mixed mode)
 
 This will start the program which loads `Example.class` through an ASM
-pipeline.  `TraceOutputVisitor` is used to print the "before" and
+pipeline.  `TraceClassVisitor` is used to print the "before" and
 "after" versions of the class.  The class is then loaded into the
 program (which works OK).
 
