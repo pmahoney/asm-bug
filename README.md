@@ -11,7 +11,7 @@ Building
 Running
 -------
 
-All tests were run ising OpenJDK 7
+All tests were run using OpenJDK 7
 
     $ java -version
     java version "1.7.0_09"
