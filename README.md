@@ -23,7 +23,7 @@ pipeline.  `TraceOutputVisitor` is used to print the "before" and
 "after" versions of the class.  The class is then loaded into the
 program (which works OK).
 
-    $ java -jar target/asm-bug-1.0.0-SNAPSHOT.jar
+    $ java -jar target/asm-bug-1.0-SNAPSHOT.jar
     ... trace output trimmed ...
     ----- AFTER -----
       public static f1(I)I
@@ -40,7 +40,7 @@ that modified class:
 Now enable a hack that forces the `changed` state of the
 `LocalVariablesSorter` to `true`.
 
-    $ java -jar target/asm-bug-1.0.0-SNAPSHOT.jar --apply-hack
+    $ java -jar target/asm-bug-1.0-SNAPSHOT.jar --apply-hack
     ... trace output trimmed ...
     ----- AFTER -----
       public static f1(I)I
